@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/changa_one"
+        android:text="@string/back"
+        android:textColor="@color/colorAccent"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="183dp"
+        tools:layout_editor_absoluteY="693dp" />
+
+    <TextView
+        android:id="@+id/titlepage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lalezar"
+        android:text="@string/chooseworkout"
+        android:lineSpacingExtra="10dp"
+        android:textColor="#FFFFFF"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.105"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.044"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/subtitlepage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lalezar"
+        android:text="@string/startslow"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.107"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.107" />
+
+    <TextView
+        android:id="@+id/intropage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="18dp"
+        android:fontFamily="@font/lalezar"
+        android:lineSpacingExtra="10dp"
+        android:text="@string/letsstart"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/divpage" />
+
+    <TextView
+        android:id="@+id/subintropage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:fontFamily="@font/lalezar"
+        android:text="@string/bestexercises"
+        android:textColor="#FFFFFF"
+        android:textSize="19sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/intropage" />
+
+    <View
+        android:id="@+id/divpage"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorAccent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/subtitlepage"
+        />
+
+    //Erstes Workout
+    <LinearLayout
+        android:id="@+id/fitone"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/subintropage"
+        >
+
+    <ImageView
+        android:src="@drawable/benchpress"
+        android:layout_width="110dp"
+        android:layout_height="70dp"/>
+
+        <LinearLayout
+            android:layout_marginLeft="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/fitonetitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/changa_one"
+                android:text="@string/pushworkout"
+                android:textColor="@color/colorAccent"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/fitonedesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/chesttriceps"
+                android:fontFamily="@font/lalezar"
+                android:textColor="@color/colorAccent"
+                android:textSize="12dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    // Zweites Workout
+    <LinearLayout
+        android:id="@+id/fittwo"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/fitone"
+        >
+
+        <ImageView
+            android:src="@drawable/deadlift"
+            android:layout_width="110dp"
+            android:layout_height="70dp"/>
+
+        <LinearLayout
+            android:layout_marginLeft="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/fittwotitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/changa_one"
+                android:text="@string/pullworkout"
+                android:textColor="@color/colorAccent"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/fittwodesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/backbiceps"
+                android:fontFamily="@font/lalezar"
+                android:textColor="@color/colorAccent"
+                android:textSize="12dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    // Drittes Workout
+    <LinearLayout
+        android:id="@+id/fitthree"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/fittwo"
+        >
+
+        <ImageView
+            android:src="@drawable/squats"
+            android:layout_width="110dp"
+            android:layout_height="70dp"/>
+
+        <LinearLayout
+            android:layout_marginLeft="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/fitthreetitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/changa_one"
+                android:text="@string/legworkout"
+                android:textColor="@color/colorAccent"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/fitthreedesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lowerbody"
+                android:fontFamily="@font/lalezar"
+                android:textColor="@color/colorAccent"
+                android:textSize="12dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    // Viertes Workout
+    <LinearLayout
+        android:id="@+id/fitfour"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/fitthree"
+        >
+
+        <ImageView
+            android:src="@drawable/chris"
+            android:layout_width="110dp"
+            android:layout_height="70dp"/>
+
+        <LinearLayout
+            android:layout_marginLeft="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/fitfourtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/changa_one"
+                android:text="@string/fullbodyworkout"
+                android:textColor="@color/colorAccent"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/fitfourdesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fullbodytext"
+                android:fontFamily="@font/lalezar"
+                android:textColor="@color/colorAccent"
+                android:textSize="12dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

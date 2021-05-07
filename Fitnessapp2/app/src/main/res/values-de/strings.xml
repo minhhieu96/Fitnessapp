@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">Fitnessapp</string>
+    <string name="ExerciseName">Übungsname</string>
+    <string name="Sets">Sätze</string>
+    <string name="Repetitions">Wiederholungen</string>
+    <string name="exhausting">erschöpft</string>
+    <string name="exerciseduration">Dauer</string>
+    <string name="back">Zurück</string>
+    <string name="delete">Löschen</string>
+    <string name="sort">Sortieren</string>
+    <string name="dreambody">Bekomme deinen Traumkörper \n indem du trainierst!</string>
+    <string name="start">Starte Workout</string>
+    <string name="progress">Fühle den Fortschritt</string>
+    <string name="chooseex">Wähle eine Übung</string>
+    <string name="benchpress">Bankdrücken</string>
+    <string name="incbenchpress">Schrägbankdrücken</string>
+    <string name="decbenchpress">Negativbankdrücken</string>
+    <string name="cablecross">Kabelzug</string>
+    <string name="pushups">Push Ups</string>
+    <string name="dips">Dips</string>
+    <string name="otherex">Andere Übung</string>
+    <string name="pushworkout">Push Workout</string>
+    <string name="deadlift">Deadlifts</string>
+    <string name="pullups">Klimmzüge</string>
+    <string name="barbellcurls">Bizeps Curls</string>
+    <string name="rackpulls">Rack Pulls</string>
+    <string name="shrugs">Schulterheben</string>
+    <string name="cablerows">Ruderzug</string>
+    <string name="pullworkout">Pull Workout</string>
+    <string name="squats">Squats</string>
+    <string name="legpress">Beinpresse</string>
+    <string name="glutebridge">Beckenheben</string>
+    <string name="kettlebellswing">Kettlebell-Swing</string>
+    <string name="gobletsquat">Goblet Squat</string>
+    <string name="deficitlunges">Ausfallschritte</string>
+    <string name="legworkout">Bein Workout</string>
+    <string name="lunges">Ausfallschritte</string>
+    <string name="muscleups">Muscle Ups</string>
+    <string name="situps">Sit Ups</string>
+    <string name="planks">Planks</string>
+    <string name="fullbodyworkout">Ganzkörpertraining</string>
+
+
+    <string name="add">Hinzufügen</string>
+    <string name="viewall">Alles anzeigen</string>
+
+    <string name="chooseworkout">Wähle dein Workout</string>
+    <string name="startslow">Starte langsam, steigere dich schnell</string>
+    <string name="letsstart">Lass uns mit dem Training beginnen</string>
+    <string name="bestexercises">Die besten Übungen in einem Workout \n um deine Stärke zu maximieren.</string>
+
+    <string name="chesttriceps">Die besten Übungen für Brust und Trizeps
+    \n                                                                                                30-45 Minuten</string>
+    <string name="backbiceps">Die besten Übungen für Rücken und Bizeps
+          \n                                                                                               35-50 Minuten</string>
+    <string name="lowerbody">Die besten Übungen für Unterkörper
+                \n                                                                                                35-50 Minuten</string>
+    <string name="fullbodytext">Die besten Übungen für ein Ganzkörpertraining
+\n                                                                                                35-50 Minuten</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>

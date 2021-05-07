@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">Fitnessapp</string>
+    <string name="ExerciseName">Exercise Name</string>
+    <string name="Sets">Exercise Sets</string>
+    <string name="Repetitions">Exercise Reps</string>
+    <string name="exhausting">exhausted</string>
+    <string name="exerciseduration">Duration</string>
+    <string name="back">Back</string>
+    <string name="delete">Delete</string>
+    <string name="sort">Sort</string>
+    <string name="dreambody">Get your dreambody now \n by working out!</string>
+    <string name="start">Start Workout</string>
+    <string name="progress">Feel your Progress</string>
+    <string name="chooseex">Choose an Exercise</string>
+    <string name="benchpress">Bench Press</string>
+    <string name="incbenchpress">Inclined bench press</string>
+    <string name="decbenchpress">Declined bench press</string>
+    <string name="cablecross">Cable crossover</string>
+    <string name="pushups">Push Ups</string>
+    <string name="dips">Dips</string>
+    <string name="otherex">Other exercise</string>
+    <string name="pushworkout">Push Workout</string>
+    <string name="deadlift">Deadlifts</string>
+    <string name="pullups">Pull ups</string>
+    <string name="barbellcurls">Barbell Curls</string>
+    <string name="rackpulls">Rack Pulls</string>
+    <string name="shrugs">Shrugs</string>
+    <string name="cablerows">Cable Rows</string>
+    <string name="pullworkout">Pull Workout</string>
+    <string name="squats">Squats</string>
+    <string name="legpress">Leg Press</string>
+    <string name="glutebridge">Glute Bridges</string>
+    <string name="kettlebellswing">Kettlebell Swing</string>
+    <string name="gobletsquat">Goblet Squat</string>
+    <string name="deficitlunges">Deficit Lunges</string>
+    <string name="legworkout">Leg Workout</string>
+    <string name="lunges">Lunges</string>
+    <string name="muscleups">Muscle Ups</string>
+    <string name="situps">Sit Ups</string>
+    <string name="planks">Planks</string>
+    <string name="fullbodyworkout">Full Body Workout</string>
+
+
+    <string name="add">Add</string>
+    <string name="viewall">View All</string>
+
+    <string name="chooseworkout">Choose Workout</string>
+    <string name="startslow">Start slow, gain fast.</string>
+    <string name="letsstart">Lets start your training</string>
+    <string name="bestexercises">Best exercises in one workout \n to maximize your strength.</string>
+
+    <string name="chesttriceps"> Best exercises for chest and triceps
+    \n                                                                                                30-45 minutes</string>
+    <string name="backbiceps">Best exercises for back and biceps
+          \n                                                                                               35-50 minutes</string>
+    <string name="lowerbody">Best exercises for lower body
+                \n                                                                                                35-50 minutes</string>
+    <string name="fullbodytext">Best full body exercises
+\n                                                                                                35-50 minutes</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</resources>
